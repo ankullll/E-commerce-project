@@ -1,6 +1,13 @@
+import { useDispatch } from "react-redux";
 import Nav from "./components/Nav";
 import Mainroutes from "./routes/Mainroutes";
+import { useEffect } from "react";
+import { asynccurrentuser } from "./store/actions/UserActions";
 const App = () => {
+  const dispatch = useDispatch()
+  useEffect(()=>{
+    dispatch(asynccurrentuser())
+  },[])
  
   return (
   

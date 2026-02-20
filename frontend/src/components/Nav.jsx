@@ -1,15 +1,24 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const Nav = () => {
+  const user = useSelector((state) => state.userReducer.users);
+  console.log(user);
   return (
-   <nav   className="flex justify-center items-center gap-x-5 p-10 mb-10">
+    <nav className="flex justify-center items-center gap-x-5 p-10 mb-10">
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/products">Products</NavLink>
+      {user ? (
+        <>
+          <NavLink to="/admin/create-product"> Create Products</NavLink>
+        </>
+      ) : (
+        <>
+          <NavLink to="/login">Login</NavLink>
+        </>
+      )}
+    </nav>
+  );
+};
 
-    <NavLink to="/" >Home</NavLink>
-    <NavLink to="/login" >Login</NavLink>
-    <NavLink to="/products" >Products</NavLink>
-   </nav>
-  )
-}
-
-export default Nav
+export default Nav;

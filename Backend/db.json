@@ -6,20 +6,6 @@
       "email": "admin@master.com",
       "password": "123456",
       "isAdmin": true
-    },
-    {
-      "id": "cXodfZRdKoiRjVaC18_vO",
-      "username": "biet",
-      "email": "a@b.c",
-      "password": "123",
-      "isAdmin": false
-    },
-    {
-      "id": "F21jHPmhYIN3-algK2wah",
-      "username": "adadasd",
-      "email": "abc",
-      "password": "123",
-      "isAdmin": false
     }
   ],
   "products": [
@@ -29,11 +15,15 @@
       "price": 109.95,
       "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
       "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
-      "rating": {
-        "rate": 3.9,
-        "count": 120
-      }
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png"
+    },
+    {
+      "id": "GV04UNZGlg3Q14xLQK42_",
+      "image": "https://jambubakers.com/wp-content/uploads/2023/07/pizza.png",
+      "title": "Pizza",
+      "price": "299",
+      "description": "Pizza khao maje kro",
+      "category": "Food"
     }
   ],
   "carts": []

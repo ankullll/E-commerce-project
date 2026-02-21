@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Products = () => {
   const products = useSelector((state) => state.productReducer.products);
-  console.log(products);
+  // console.log(products);
 
   const render = products.map((product) => {
     return (
@@ -14,7 +14,7 @@ const Products = () => {
         <div className="mt-3 flex justify-between items-center p-5 flex-wrap">
           <p>{product.price}</p>
           <button>Add to cart</button>
-          <Link className="w-1/2  m-auto block" to={`/product/:${product.id}`}>More info ...</Link>
+          <Link className="w-1/2  m-auto block" to={`/product/${product.id}`}>More info ...</Link>
         </div>
       </div>
     );

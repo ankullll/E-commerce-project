@@ -18,12 +18,12 @@
       "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png"
     },
     {
-      "id": "GV04UNZGlg3Q14xLQK42_",
-      "image": "https://jambubakers.com/wp-content/uploads/2023/07/pizza.png",
-      "title": "Pizza",
-      "price": "299",
-      "description": "Pizza khao maje kro",
-      "category": "Food"
+      "id": "EA8gKJQ9x6EIzAfwCgU9Y",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSPQWy1o_llXJnYCnpdOYLu5Bu0Z90tZ5BhjFHgaMTcsLBzOq1bVH6mW2BMkDWNYPZAfd3sco7UjmLDEtBM8d8jBYnJcBSHTzZIBSnIZWprX2fbZeOpuayUirY",
+      "title": "Laptop",
+      "price": "45999",
+      "description": "Best Gaming Laptop hai",
+      "category": "Gadget"
     }
   ],
   "carts": []

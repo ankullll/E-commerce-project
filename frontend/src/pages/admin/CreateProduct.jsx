@@ -14,7 +14,8 @@ const CreateProduct = () => {
     console.log(product);
     reset();
     dispatch(asyncCreateProduct(product));
-    navigate("/products")
+    navigate("/products/")
+  
     
   };
   return (
